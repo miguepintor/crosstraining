@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 
 import { ThemeProvider } from '@material-ui/core/styles';
+import DateFnsUtils from '@date-io/date-fns';
+import { MuiPickersUtilsProvider } from '@material-ui/pickers';
 import theme from './config/theme.config';
 
 import Dashboard from './pages/Dashboard';
@@ -16,6 +18,7 @@ import SignUp from './pages/SignUp';
 function App() {
   return (
     <Router>
+      <MuiPickersUtilsProvider utils={DateFnsUtils}>
       <ThemeProvider theme={theme}>
         <Switch>
           <Route exact path="/">
@@ -29,6 +32,7 @@ function App() {
           </Route>
         </Switch>
       </ThemeProvider>
+      </MuiPickersUtilsProvider>
     </Router>
   );
 }
