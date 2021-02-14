@@ -3,13 +3,13 @@ import 'firebase/auth';
 import 'firebase/database';
 
 const config = {
-    apiKey: "AIzaSyCfsvXKJguArR_axE1-806BgdPhfyW1c90",
-    authDomain: "workout-tracker-a7ac5.firebaseapp.com",
-    databaseURL: "https://workout-tracker-a7ac5.firebaseio.com",
-    projectId: "workout-tracker-a7ac5",
-    storageBucket: "workout-tracker-a7ac5.appspot.com",
-    messagingSenderId: "32174510048",
-    appId: "1:32174510048:web:a1305976bd438222402585"
+    apiKey: "AIzaSyDdKzsoyXbiYQqmrWYnpIJFb3yqR9dO9io",
+    authDomain: "crosstraining-innova.firebaseapp.com",
+    projectId: "crosstraining-innova",
+    storageBucket: "crosstraining-innova.appspot.com",
+    messagingSenderId: "171861837111",
+    appId: "1:171861837111:web:34e65b7d43261d0c6d46b2",
+    databaseURL: "https://crosstraining-innova-default-rtdb.europe-west1.firebasedatabase.app"
 };
 
 class Firebase {
