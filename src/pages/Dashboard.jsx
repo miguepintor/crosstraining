@@ -43,7 +43,7 @@ function Dashboard(props) {
                 <AppBar position="absolute" >
                   <Toolbar className={classes.toolbar}>
                       <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-                      Dashboard
+                      Crosstraining
                       </Typography>
                       <ThemeProvider theme={darkTheme}>
                         <Button onClick={signOut}>
